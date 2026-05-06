@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мезили Амин — Координатор по технологиям и влиянию</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="templatemo-621-luminary-style.css">
+</head>
+<body>
+
+<svg class="grain" width="100%" height="100%">
+  <filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="5" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  <rect width="100%" height="100%" filter="url(#n)"/>
+</svg>
+<div class="atmosphere"></div>
+
+<!-- Nav -->
+<nav class="top-nav" id="topNav">
+  <a href="#" class="nav-brand">Мезили Амин<span>Алжир</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">Обо мне</a></li>
+    <li><a href="#impact">Влияние</a></li>
+    <li><a href="#engineering">Инженерия</a></li>
+    <li><a href="#it">IT-системы</a></li>
+    <li><a href="#initiative">Инициатива</a></li>
+    <li><a href="#gallery">Галерея</a></li>
+    <li><a href="#contact">Контакты</a></li>
+  </ul>
+  <a href="Mezili_Amine_CV.pdf" class="nav-cta" download>Скачать резюме</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span class="toggle-bar"></span><span class="toggle-bar"></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-links">
+      <a href="#" class="mobile-menu-link" data-index="01">Home</a>
+      <a href="#about" class="mobile-menu-link" data-index="02">About</a>
+      <a href="#impact" class="mobile-menu-link" data-index="03">Impact</a>
+      <a href="#engineering" class="mobile-menu-link" data-index="04">Engineering</a>
+      <a href="#it" class="mobile-menu-link" data-index="05">IT Systems</a>
+      <a href="#initiative" class="mobile-menu-link" data-index="06">Initiative</a>
+      <a href="#gallery" class="mobile-menu-link" data-index="07">Gallery</a>
+      <a href="#contact" class="mobile-menu-link" data-index="08">Contact</a>
+    </div>
+    <div class="mobile-menu-footer">
+      <a href="mailto:jahamine.mezili@gmail.com">Email</a>
+      <a href="Mezili_Amine_CV.pdf" download>CV</a>
+      <a href="tel:+213797165204">Phone</a>
+    </div>
+  </div>
+</div>
+
+<!-- Side Panels -->
+<nav class="side-panel left" aria-label="Scroll indicators">
+  <span class="side-label">Scroll</span>
+  <div class="side-track"><div class="side-track-fill" id="leftTrack"></div></div>
+  <div class="side-dot active"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-readout" id="scrollPct">00</div>
+</nav>
+
+<nav class="side-panel right" aria-label="Status indicators">
+  <span class="side-label">Field</span>
+  <div class="side-track"><div class="side-track-fill" id="rightTrack"></div></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot active"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-readout">DZA</div>
+</nav>
+
+<main class="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      <span>Проверено в полевых условиях — Алжир</span>
+    </div>
+    <h1>Создание реальных решений<br><em>там, где инфраструктура ограничена</em></h1>
+    <p class="hero-sub">
+      Координатор по технологиям и влиянию с полевым опытом, объединяющий промышленную инженерию, IT-системы и масштабные гуманитарные операции. Внедряю решения там, где высоки ставки и ограничены ресурсы.
+    </p>
+    <div class="hero-ctas">
+      <a href="Mezili_Amine_CV.pdf" class="btn-primary" download>Скачать резюме</a>
+      <a href="#contact" class="btn-secondary">Начать сотрудничество</a>
+    </div>
+    <div class="hero-metrics">
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="5" data-decimals="0">0</span><span>+</span></div>
+        <div class="metric-label">Medical Missions Led</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="10000" data-decimals="0">0</span><span>+</span></div>
+        <div class="metric-label">Beneficiaries Reached</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="3" data-decimals="0">0</span></div>
+        <div class="metric-label">Languages AR FR EN</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS TICKER -->
+  <div class="logo-ticker reveal">
+    <div class="logo-ticker-label">Ключевые компетенции</div>
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item">Промышленная инженерия</span><span class="ticker-dot"></span>
+      <span class="ticker-item">IT-поддержка и сети</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Полевые операции</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Логистическая координация</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Обслуживание систем</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Руководство командами</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Решение проблем</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Цифровая грамотность</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Промышленная инженерия</span><span class="ticker-dot"></span>
+      <span class="ticker-item">IT-поддержка и сети</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Полевые операции</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Логистическая координация</span><span class="ticker-dot"></span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="feature reveal">
+      <div class="feature-visual">
+        <img src="images/about-field.jpg" alt="Mezili Amine coordinating field team in southern Algeria">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">01</div>
+        <p class="section-tag">Обо мне</p>
+        <h2 class="section-title">Инженер, техник и координатор <strong>для удаленных условий</strong></h2>
+        <p class="section-body">
+          Работаю на пересечении технологий, инженерии и гуманитарного влияния. С базой в промышленной инженерии и практикой в IT-системах, руковожу операциями там, где нет стандартной инфраструктуры.
+        </p>
+        <p class="section-body">
+          От восстановления асфальтового завода Terex Magnum 140 в Хасси-Хеби, Бешар, до координации 5+ национальных медицинских караванов в южных регионах Алжира — мой фокус на адаптивности и реальном исполнении. Управляю междисциплинарными командами, восстанавливаю критические системы и решаю операционные задачи в реальном времени.
+        </p>
+        <p class="section-body">
+          Стиль работы: ориентация на действие, поиск решений, лидерство под давлением. Свободно владею арабским, французским и английским для межкультурной координации.
+        </p>
+      </div>
+    </div>
+
+    <div class="feature reverse reveal" id="impact">
+      <div class="feature-visual">
+        <img src="images/impact-medical.jpg" alt="Medical caravan consultation in remote community">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">02</div>
+        <p class="section-tag">Влияние</p>
+        <h2 class="section-title">Координация медпомощи для <strong>10 000+ бенефициаров</strong></h2>
+        <p class="section-body">
+          <strong>Проблема:</strong> Сообщества на юге и границах Алжира не имели стабильного доступа к медицине, требовалось масштабное мобильное вмешательство.
+        </p>
+        <p class="section-body">
+          <strong>Действие:</strong> Как национальный технический координатор, руководил логистикой, полевыми операциями и медицинскими командами в 5+ миссиях. Координировал с местными властями и медучреждениями, управлял цепочками поставок, решал задачи в пустынных условиях.
+        </p>
+        <p class="section-body">
+          <strong>Результат:</strong> Прямой доступ к медицине для 10 000+ человек и создание повторяемых моделей для будущих караванов.
+        </p>
+      </div>
+    </div>
+
+    <div class="feature reveal" id="engineering">
+      <div class="feature-visual">
+        <img src="images/engineering-plant.jpg" alt="Industrial asphalt plant intervention">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">03</div>
+        <p class="section-tag">Кейс по инженерии</p>
+        <h2 class="section-title">Восстановление критической инфраструктуры <strong>в полевых условиях</strong></h2>
+        <p class="section-body">
+          <strong>Локация:</strong> Хасси-Хеби, Бешар — завод Terex Magnum 140
+        </p>
+        <p class="section-body">
+          <strong>Проблема:</strong> Полная остановка завода угрожала проекту инфраструктуры. Техническая поддержка на месте ограничена.
+        </p>
+        <p class="section-body">
+          <strong>Действие:</strong> Полная диагностика. Ремонт конвейера, горелки и фильтров. Восстановление и калибровка системы SYSTEX без поддержки завода.
+        </p>
+        <p class="section-body">
+          <strong>Результат:</strong> Возврат к полной мощности, устранение простоев и продолжение проекта в удаленном регионе.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- IT SYSTEMS -->
+  <section class="section section-center" id="it">
+    <p class="section-tag reveal">IT & Technical Support</p>
+    <h2 class="section-title reveal reveal-d1">Практичная, надежная <strong>технология, которая работает</strong></h2>
+    <p class="section-body reveal reveal-d2">Практическая поддержка для частных лиц и малого бизнеса. Без теории — только работающие системы.</p>
+
+    <div class="pricing-grid">
+      <div class="pricing-card reveal reveal-d1">
+        <div class="pricing-tier">Обслуживание ПК</div>
+        <p class="pricing-desc">Диагностика и ремонт 100+ систем в реальных условиях.</p>
+        <ul class="pricing-features">
+          <li>Поиск неисправностей и ремонт компонентов</li>
+          <li>Установка и оптимизация ПО</li>
+          <li>Восстановление данных и системы</li>
+          <li>Протоколы профилактического обслуживания</li>
+        </ul>
+      </div>
+
+      <div class="pricing-card featured reveal reveal-d2">
+        <div class="pricing-tier">Настройка сетей</div>
+        <p class="pricing-desc">Установка и настройка сетей там, где важна надежность.</p>
+        <ul class="pricing-features">
+          <li>Проектирование LAN/WAN для малых офисов</li>
+          <li>Настройка роутеров, коммутаторов и точек доступа</li>
+          <li>Усиление безопасности и контроль доступа</li>
+          <li>Документация и обучение пользователей</li>
+          <li>Постоянная поддержка и устранение неполадок</li>
+        </ul>
+      </div>
+
+      <div class="pricing-card reveal reveal-d3">
+        <div class="pricing-tier">Полевое устранение неполадок</div>
+        <p class="pricing-desc">Быстрое решение проблем в ограниченных условиях.</p>
+        <ul class="pricing-features">
+          <li>Диагностика на месте</li>
+          <li>Решения при ограниченных ресурсах</li>
+          <li>Интеграция систем</li>
+          <li>Обучение местных команд</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- INITIATIVE -->
+  <section class="section section-center" id="initiative">
+    <p class="section-tag reveal">Initiative</p>
+    <h2 class="section-title reveal reveal-d1">Программа <strong>цифровой грамотности</strong></h2>
+    <p class="section-body reveal reveal-d2" style="max-width:720px; margin:0 auto;">В разработке: масштабируемая программа для создания цифроустойчивых сообществ в нуждающихся районах Алжира.</p>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal reveal-d1">
+        <p class="testimonial-quote">"Для детей: обучение здоровому использованию технологий, управлению экранным временем и критическому мышлению онлайн — не страх, а компетенция."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">CH</div>
+          <div>
+            <div class="testimonial-name">Трек для детей</div>
+            <div class="testimonial-role">Цифровое благополучие и грамотность</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-d2">
+        <p class="testimonial-quote">"Для пожилых: практическое обучение распознаванию мошенничества, фейковых новостей и безопасному цифровому общению."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">EL</div>
+          <div>
+            <div class="testimonial-name">Трек для пожилых</div>
+            <div class="testimonial-role">Безопасность и устойчивость</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- GALLERY -->
+  <section class="section section-center" id="gallery">
+    <p class="section-tag reveal">Field Gallery</p>
+    <h2 class="section-title reveal reveal-d1">Работы в <strong>инженерии, IT и гуманитарных операциях</strong></h2>
+
+    <div class="integrations-grid" style="margin-top:48px;">
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-field.jpg" alt="Field coordination">
+        <div class="integration-name">Полевая координация — Юг Алжира</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-medical-1.jpg" alt="Medical caravan">
+        <div class="integration-name">Медкараван — Консультация пациента</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-engineering.jpg" alt="Asphalt plant">
+        <div class="integration-name">Инженерия — Вмешательство на заводе Terex</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-it.jpg" alt="Network setup">
+        <div class="integration-name">IT-системы — Настройка сети</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/it-repair.jpg" alt="PC repair">
+        <div class="integration-name">Техподдержка — Ремонт оборудования</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-medical-2.jpg" alt="Community engagement">
+        <div class="integration-name">Гуманитарная работа — Взаимодействие с сообществом</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-leadership.jpg" alt="Training session">
+        <div class="integration-name">Лидерство — Обучение команды</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/about-field.jpg" alt="Operations planning">
+        <div class="integration-name">Операции — Планирование миссии</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- APPROACH / FAQ repurposed -->
+  <section class="section section-center" id="faq">
+    <p class="section-tag reveal">Working Principles</p>
+    <h2 class="section-title reveal reveal-d1">Как я <strong>работаю в поле</strong></h2>
+
+    <div class="faq-list reveal reveal-d2">
+      <div class="faq-controls">
+        <button class="faq-toggle-all" id="faqToggleAll">Развернуть все</button>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Ориентирован на действие и решения<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Приоритет — рабочие решения, а не идеальные планы. В удаленных миссиях решения принимаются при неполной информации и исполняются немедленно.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Адаптивность в сложных условиях<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">От пустынных медкараванов до заводов без поддержки производителя — адаптирую инструменты, процессы и стиль лидерства под условия.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Лидерство под давлением<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Координация междисциплинарных команд требует ясной коммуникации, дисциплины в логистике и спокойных решений.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Фокус на реальном влиянии, не на теории<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Важные метрики: восстановленные системы, охваченные бенефициары, устраненные простои. Создаю решения, работающие при ограниченной инфраструктуре.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="footer-cta" id="contact">
+    <p class="section-tag reveal">Available for Collaboration</p>
+    <h2 class="section-title reveal reveal-d1">Открыт к международному сотрудничеству,<br><strong>стажировкам и миссиям с влиянием</strong></h2>
+    <p class="section-body reveal reveal-d2" style="margin: 0 auto;">Базируюсь в Алжире • Арабский (родной), французский и английский (свободно) • jahamine.mezili@gmail.com • +213 797 165 204</p>
+    <div class="footer-ctas reveal reveal-d3">
+      <a href="mailto:jahamine.mezili@gmail.com" class="btn-primary">Написать мне</a>
+      <a href="Mezili_Amine_CV.pdf" class="btn-secondary" download>Скачать полное резюме</a>
+    </div>
+
+    <div class="footer-bar reveal reveal-d4" style="margin-top: 80px;">
+      <div class="footer-brand">Mezili Amine — 2026</div>
+      <div class="footer-links">
+        <a href="mailto:jahamine.mezili@gmail.com">Email</a>
+        <a href="tel:+213797165204">Phone</a>
+        <span class="footer-credit">Algeria</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="templatemo-621-luminary-script.js"></script>
+</body>
+</html>
