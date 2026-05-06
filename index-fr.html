@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mezili Amine — Coordinateur Technologie & Impact</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="templatemo-621-luminary-style.css">
+</head>
+<body>
+
+<svg class="grain" width="100%" height="100%">
+  <filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="5" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  <rect width="100%" height="100%" filter="url(#n)"/>
+</svg>
+<div class="atmosphere"></div>
+
+<!-- Nav -->
+<nav class="top-nav" id="topNav">
+  <a href="#" class="nav-brand">Mezili Amine<span>Algérie</span></a>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#engineering">Ingénierie</a></li>
+    <li><a href="#it">Systèmes IT</a></li>
+    <li><a href="#initiative">Initiative</a></li>
+    <li><a href="#gallery">Galerie</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="lang-switch" style="display:flex;gap:14px;margin-left:20px;font-size:18px;align-items:center;">
+  <a href="index.html" title="English" style="text-decoration:none;opacity:0.5;">🇬🇧</a>
+  <a href="index-fr.html" title="Français" style="text-decoration:none;opacity:1;">🇫🇷</a>
+  <a href="index-ar.html" title="العربية" style="text-decoration:none;opacity:0.5;">🇩🇿</a>
+</div>
+  <a href="Mezili_Amine_CV.pdf" class="nav-cta" download>Télécharger CV</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span class="toggle-bar"></span><span class="toggle-bar"></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-menu-links">
+      <a href="#" class="mobile-menu-link" data-index="01">Home</a>
+      <a href="#about" class="mobile-menu-link" data-index="02">About</a>
+      <a href="#impact" class="mobile-menu-link" data-index="03">Impact</a>
+      <a href="#engineering" class="mobile-menu-link" data-index="04">Engineering</a>
+      <a href="#it" class="mobile-menu-link" data-index="05">IT Systems</a>
+      <a href="#initiative" class="mobile-menu-link" data-index="06">Initiative</a>
+      <a href="#gallery" class="mobile-menu-link" data-index="07">Gallery</a>
+      <a href="#contact" class="mobile-menu-link" data-index="08">Contact</a>
+    </div>
+    <div class="mobile-menu-footer">
+      <a href="mailto:jahamine.mezili@gmail.com">Email</a>
+      <a href="Mezili_Amine_CV.pdf" download>CV</a>
+      <a href="tel:+213797165204">Phone</a>
+    </div>
+  </div>
+</div>
+
+<!-- Side Panels -->
+<nav class="side-panel left" aria-label="Scroll indicators">
+  <span class="side-label">Scroll</span>
+  <div class="side-track"><div class="side-track-fill" id="leftTrack"></div></div>
+  <div class="side-dot active"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-readout" id="scrollPct">00</div>
+</nav>
+
+<nav class="side-panel right" aria-label="Status indicators">
+  <span class="side-label">Field</span>
+  <div class="side-track"><div class="side-track-fill" id="rightTrack"></div></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot active"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-dot"></div>
+  <div class="side-readout">DZA</div>
+</nav>
+
+<main class="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      <span>Testé sur le terrain en Algérie</span>
+    </div>
+    <h1>Construire des solutions concrètes<br><em>là où l’infrastructure est limitée</em></h1>
+    <p class="hero-sub">
+      Coordinateur Technologie & Impact de terrain alliant génie industriel, systèmes informatiques et opérations humanitaires à grande échelle. Je déploie des solutions là où les enjeux sont élevés et les ressources limitées.
+    </p>
+    <div class="hero-ctas">
+      <a href="Mezili_Amine_CV.pdf" class="btn-primary" download>Télécharger CV</a>
+      <a href="#contact" class="btn-secondary">Démarrer une collaboration</a>
+    </div>
+    <div class="hero-metrics">
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="5" data-decimals="0">0</span><span>+</span></div>
+        <div class="metric-label">Missions médicales dirigées</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="10000" data-decimals="0">0</span><span>+</span></div>
+        <div class="metric-label">Bénéficiaires touchés</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value"><span class="counter" data-target="3" data-decimals="0">0</span></div>
+        <div class="metric-label">Langues AR FR EN</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS TICKER -->
+  <div class="logo-ticker reveal">
+    <div class="logo-ticker-label">Compétences clés</div>
+    <div class="ticker-track" id="tickerTrack">
+      <span class="ticker-item">Génie industriel</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Support IT & Réseaux</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Opérations terrain</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Coordination logistique</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Maintenance systèmes</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Leadership d’équipe</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Résolution de problèmes</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Littératie numérique</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Génie industriel</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Support IT & Réseaux</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Opérations terrain</span><span class="ticker-dot"></span>
+      <span class="ticker-item">Coordination logistique</span><span class="ticker-dot"></span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="feature reveal">
+      <div class="feature-visual">
+        <img src="images/about-field.jpg" alt="Mezili Amine coordinating field team in southern Algeria">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">01</div>
+        <p class="section-tag">À propos</p>
+        <h2 class="section-title">Ingénieur, technicien et coordinateur <strong>conçu pour les environnements isolés</strong></h2>
+        <p class="section-body">
+          J’opère à l’intersection de la technologie, de l’ingénierie et de l’impact humain. Avec une base en génie industriel et une pratique concrète des systèmes IT, je dirige des opérations là où l’infrastructure standard fait défaut.
+        </p>
+        <p class="section-body">
+          De la remise en service d’une centrale d’enrobage Terex Magnum 140 à Hassi Khebi (Béchar) à la coordination de plus de 5 caravanes médicales nationales dans le sud algérien, mon approche privilégie l’adaptabilité et l’exécution terrain. Je manage des équipes pluridisciplinaires, restaure des systèmes critiques et résous les défis opérationnels en temps réel.
+        </p>
+        <p class="section-body">
+          Style de travail : orienté action, axé solutions, leadership sous pression. Trilingue arabe, français, anglais pour une coordination interculturelle.
+        </p>
+      </div>
+    </div>
+
+    <div class="feature reverse reveal" id="impact">
+      <div class="feature-visual">
+        <img src="images/impact-medical.jpg" alt="Medical caravan consultation in remote community">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">02</div>
+        <p class="section-tag">Impact</p>
+        <h2 class="section-title">Coordonner l’accès aux soins pour <strong>10 000+ bénéficiaires</strong></h2>
+        <p class="section-body">
+          <strong>Problème :</strong> Des communautés isolées du sud et des frontières algériennes n’avaient pas d’accès régulier aux soins, nécessitant une intervention mobile à grande échelle.
+        </p>
+        <p class="section-body">
+          <strong>Action :</strong> En tant que Coordinateur Technique National, j’ai dirigé la logistique, les opérations terrain et les équipes médicales pluridisciplinaires sur plus de 5 missions. Coordination avec autorités locales et établissements de santé, gestion des chaînes d’approvisionnement, résolution de problèmes en temps réel en conditions désertiques.
+        </p>
+        <p class="section-body">
+          <strong>Résultat :</strong> Accès direct aux soins pour plus de 10 000 personnes, avec des modèles opérationnels reproductibles pour les futures caravanes nationales.
+        </p>
+      </div>
+    </div>
+
+    <div class="feature reveal" id="engineering">
+      <div class="feature-visual">
+        <img src="images/engineering-plant.jpg" alt="Industrial asphalt plant intervention">
+      </div>
+      <div class="feature-content">
+        <div class="feature-number">03</div>
+        <p class="section-tag">Cas d’ingénierie</p>
+        <h2 class="section-title">Restaurer une infrastructure critique <strong>en conditions terrain</strong></h2>
+        <p class="section-body">
+          <strong>Lieu :</strong> Hassi Khebi, Béchar — Centrale Terex Magnum 140
+        </p>
+        <p class="section-body">
+          <strong>Problème :</strong> Arrêt complet menaçant un projet d’infrastructure critique. Support technique limité sur site.
+        </p>
+        <p class="section-body">
+          <strong>Action :</strong> Diagnostic complet. Réparation et remise en service du convoyeur, du brûleur et des unités de filtration. Récupération et recalage du système de contrôle SYSTEX sans support usine.
+        </p>
+        <p class="section-body">
+          <strong>Résultat :</strong> Retour à pleine capacité opérationnelle, suppression des arrêts et poursuite du projet en environnement isolé.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- IT SYSTEMS -->
+  <section class="section section-center" id="it">
+    <p class="section-tag reveal">IT & Technical Support</p>
+    <h2 class="section-title reveal reveal-d1">Une technologie <strong>pratique et fiable</strong></h2>
+    <p class="section-body reveal reveal-d2">Support concret pour particuliers et PME. Pas de théorie — uniquement des systèmes qui fonctionnent.</p>
+
+    <div class="pricing-grid">
+      <div class="pricing-card reveal reveal-d1">
+        <div class="pricing-tier">Maintenance PC</div>
+        <p class="pricing-desc">Plus de 100 systèmes diagnostiqués et réparés en conditions réelles.</p>
+        <ul class="pricing-features">
+          <li>Dépannage matériel et réparation de composants</li>
+          <li>Installation et optimisation logicielle</li>
+          <li>Récupération de données et restauration système</li>
+          <li>Protocoles de maintenance préventive</li>
+        </ul>
+  <div class="lang-switch" style="display:flex;gap:14px;margin-left:20px;font-size:18px;align-items:center;">
+  <a href="index.html" title="English" style="text-decoration:none;opacity:0.5;">🇬🇧</a>
+  <a href="index-fr.html" title="Français" style="text-decoration:none;opacity:1;">🇫🇷</a>
+  <a href="index-ar.html" title="العربية" style="text-decoration:none;opacity:0.5;">🇩🇿</a>
+</div>
+      </div>
+
+      <div class="pricing-card featured reveal reveal-d2">
+        <div class="pricing-tier">Installation Réseau</div>
+        <p class="pricing-desc">Installation et configuration de réseaux où la fiabilité compte.</p>
+        <ul class="pricing-features">
+          <li>Conception LAN/WAN pour petits bureaux</li>
+          <li>Configuration routeurs, switchs et points d’accès</li>
+          <li>Durcissement sécurité et contrôle d’accès</li>
+          <li>Documentation et formation utilisateurs</li>
+          <li>Support continu et dépannage</li>
+        </ul>
+  <div class="lang-switch" style="display:flex;gap:14px;margin-left:20px;font-size:18px;align-items:center;">
+  <a href="index.html" title="English" style="text-decoration:none;opacity:0.5;">🇬🇧</a>
+  <a href="index-fr.html" title="Français" style="text-decoration:none;opacity:1;">🇫🇷</a>
+  <a href="index-ar.html" title="العربية" style="text-decoration:none;opacity:0.5;">🇩🇿</a>
+</div>
+      </div>
+
+      <div class="pricing-card reveal reveal-d3">
+        <div class="pricing-tier">Dépannage terrain</div>
+        <p class="pricing-desc">Résolution rapide en environnements contraints.</p>
+        <ul class="pricing-features">
+          <li>Diagnostics sur site</li>
+          <li>Solutions à ressources limitées</li>
+          <li>Intégration système</li>
+          <li>Formation des équipes locales</li>
+        </ul>
+  <div class="lang-switch" style="display:flex;gap:14px;margin-left:20px;font-size:18px;align-items:center;">
+  <a href="index.html" title="English" style="text-decoration:none;opacity:0.5;">🇬🇧</a>
+  <a href="index-fr.html" title="Français" style="text-decoration:none;opacity:1;">🇫🇷</a>
+  <a href="index-ar.html" title="العربية" style="text-decoration:none;opacity:0.5;">🇩🇿</a>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- INITIATIVE -->
+  <section class="section section-center" id="initiative">
+    <p class="section-tag reveal">Initiative</p>
+    <h2 class="section-title reveal reveal-d1">Programme de <strong>sensibilisation numérique</strong></h2>
+    <p class="section-body reveal reveal-d2" style="max-width:720px; margin:0 auto;">En développement : programme scalable pour bâtir des communautés numériquement résilientes dans les zones défavorisées d’Algérie.</p>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal reveal-d1">
+        <p class="testimonial-quote">"Pour les enfants : usage sain de la technologie, gestion du temps d’écran et esprit critique en ligne — pas de peur, de la compétence."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">CH</div>
+          <div>
+            <div class="testimonial-name">Parcours Enfants</div>
+            <div class="testimonial-role">Bien-être numérique & littératie</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal reveal-d2">
+        <p class="testimonial-quote">"Pour les seniors : formation pratique à la détection des arnaques, des fausses informations et à la communication numérique sécurisée."</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">EL</div>
+          <div>
+            <div class="testimonial-name">Parcours Seniors</div>
+            <div class="testimonial-role">Sécurité & résilience</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- GALLERY -->
+  <section class="section section-center" id="gallery">
+    <p class="section-tag reveal">Field Gallery</p>
+    <h2 class="section-title reveal reveal-d1">Travaux en <strong>ingénierie, IT et opérations humanitaires</strong></h2>
+
+    <div class="integrations-grid" style="margin-top:48px;">
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-field.jpg" alt="Field coordination">
+        <div class="integration-name">Coordination terrain — Sud algérien</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-medical-1.jpg" alt="Medical caravan">
+        <div class="integration-name">Caravane médicale — Consultation</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-engineering.jpg" alt="Asphalt plant">
+        <div class="integration-name">Ingénierie — Intervention centrale Terex</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-it.jpg" alt="Network setup">
+        <div class="integration-name">Systèmes IT — Configuration réseau</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/it-repair.jpg" alt="PC repair">
+        <div class="integration-name">Support technique — Réparation matériel</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-medical-2.jpg" alt="Community engagement">
+        <div class="integration-name">Humanitaire — Engagement communautaire</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/gallery-leadership.jpg" alt="Training session">
+        <div class="integration-name">Leadership — Formation d’équipe</div>
+      </div>
+      <div class="integration-item gallery-card">
+        <img src="images/about-field.jpg" alt="Operations planning">
+        <div class="integration-name">Opérations — Planification mission</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="silk-divider reveal"></div>
+
+  <!-- APPROACH / FAQ repurposed -->
+  <section class="section section-center" id="faq">
+    <p class="section-tag reveal">Working Principles</p>
+    <h2 class="section-title reveal reveal-d1">Ma façon d’<strong>opérer sur le terrain</strong></h2>
+
+    <div class="faq-list reveal reveal-d2">
+      <div class="faq-controls">
+        <button class="faq-toggle-all" id="faqToggleAll">Tout développer</button>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Orienté action et solutions<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Je privilégie les correctifs opérationnels aux plans parfaits. En mission isolée, les décisions se prennent avec des informations incomplètes et s’exécutent immédiatement.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Adaptabilité en environnements difficiles<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Des caravanes médicales dans le désert aux centrales sans support constructeur, j’adapte outils, processus et leadership aux contraintes terrain.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Leadership sous pression<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Coordonner des équipes pluridisciplinaires techniques et humanitaires exige communication claire, discipline logistique et sang-froid.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Focus sur l’impact réel, pas la théorie<span class="faq-icon"></span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Les métriques qui comptent : systèmes restaurés, bénéficiaires touchés, arrêts supprimés. Je construis des solutions qui fonctionnent là où l’infrastructure est limitée.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="footer-cta" id="contact">
+    <p class="section-tag reveal">Available for Collaboration</p>
+    <h2 class="section-title reveal reveal-d1">Ouvert aux collaborations internationales,<br><strong>fellowships et missions à impact</strong></h2>
+    <p class="section-body reveal reveal-d2" style="margin: 0 auto;">Basé en Algérie • Arabe (natif), Français & Anglais (courant) • jahamine.mezili@gmail.com • +213 797 165 204</p>
+    <div class="footer-ctas reveal reveal-d3">
+      <a href="mailto:jahamine.mezili@gmail.com" class="btn-primary">M’écrire</a>
+      <a href="Mezili_Amine_CV.pdf" class="btn-secondary" download>Télécharger le CV complet</a>
+    </div>
+
+    <div class="footer-bar reveal reveal-d4" style="margin-top: 80px;">
+      <div class="footer-brand">Mezili Amine — 2026</div>
+      <div class="footer-links">
+        <a href="mailto:jahamine.mezili@gmail.com">Email</a>
+        <a href="tel:+213797165204">Phone</a>
+        <span class="footer-credit">Algeria</span>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="templatemo-621-luminary-script.js"></script>
+</body>
+</html>
